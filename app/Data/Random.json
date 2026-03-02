@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "title": "Visual Designer",
+    "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVzaWduZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    "company": "Global Pulse • Remote",
+    "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "match": "85% Match",
+    "time": "1d ago"
+  },
+  {
+    "id": 2,
+    "title": "UI Designer",
+    "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVzaWduZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    "company": "Global Pulse • Remote",
+    "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "match": "85% Match",
+    "time": "1d ago"
+  },
+  {
+    "id": 3,
+    "title": "UX Designer",
+    "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVzaWduZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    "company": "Global Pulse • Remote",
+    "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "match": "85% Match",
+    "time": "1d ago"
+  },
+    {
+        "id": 4,
+        "title": "Product Designer",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVzaWduZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+        "company": "Global Pulse • Remote",
+        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "match": "85% Match",
+        "time": "1d ago"
+    },
+    {
+        "id": 5,
+        "title": "Graphic Designer",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVzaWduZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+        "company": "Global Pulse • Remote",
+        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "match": "85% Match",
+        "time": "1d ago"
+    },
+    {
+        "id": 6,
+        "title": "Web Designer",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVzaWduZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+        "company": "Global Pulse • Remote",
+        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "match": "85% Match",
+        "time": "1d ago"
+    },
+    {
+        "id": 7,
+        "title": "Web Designer",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVzaWduZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+        "company": "Global Pulse • Remote",
+        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "match": "85% Match",
+        "time": "1d ago"
+    },
+    {
+        "id": 8,
+        "title": "Web Designer",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVzaWduZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+        "company": "Global Pulse • Remote",
+        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "match": "85% Match",
+        "time": "1d ago"
+    },
+    {
+        "id": 9,
+        "title": "Web Designer",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVzaWduZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+        "company": "Global Pulse • Remote",
+        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "match": "85% Match",
+        "time": "1d ago"
+    },
+    {
+        "id": 10,
+        "title": "Web Designer",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVzaWduZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+        "company": "Global Pulse • Remote",
+        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "match": "85% Match",
+        "time": "1d ago"
+    }
+
+]

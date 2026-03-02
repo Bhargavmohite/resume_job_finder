@@ -7,19 +7,19 @@ export default function Index() {
     router.push("./(admin)");
   };
   const navigateToUser = () => {
-    router.push("./(user)");
+    router.push("../(Candidate)");
   };
   const navigateToClient = () => {
-    router.push("./(client)");
+    router.push("../(Recruiter)");
   };
   return (
     <View className='flex-1 items-center justify-center bg-background'>
       <Text className='text-primary'>Welcome to Resume Job Finder</Text>
       <View className='p-4 space-y-4'>
-        <Button title=' User' onPress={navigateToUser} />
+        <Button title=' Candidate' onPress={navigateToUser} />
       </View>
       <View className='p-4 space-y-4'>
-        <Button title=' Client' onPress={navigateToClient} />
+        <Button title=' Recruiter' onPress={navigateToClient} />
       </View>
       <View className='p-4 space-y-4'>
         <Button title=' Admin' onPress={navigateToAdmin} />
