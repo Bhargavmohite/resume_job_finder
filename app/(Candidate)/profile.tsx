@@ -1,3 +1,4 @@
+import { Feather } from "@expo/vector-icons";
 import React from "react";
 import { Image, ScrollView, Text, TouchableOpacity, View } from "react-native";
 
@@ -25,17 +26,57 @@ const profile = () => {
               <Text className='text-gray-400 text-sm mt-1'>student</Text>
             </View>
           </View>
+        </View>
+        <View className='px-5 pt-5 mt-5 relative bottom-5'>
+          {/* Bio */}
+          <TouchableOpacity className='flex-row items-center py-5 border-b border-gray-200'>
+            <Feather name='user' size={22} color='gray' />
+            <View className='ml-4 flex-1'>
+              <Text className='text-lg font-semibold text-gray-800'>Bio</Text>
+              <Text className='text-gray-500 text-sm'>
+                You Can view your Bio
+              </Text>
+            </View>
+          </TouchableOpacity>
 
-          {/* Buttons */}
-          <View className='flex-row mt-5  gap-3'>
-            <TouchableOpacity className='flex-1 border border-gray-300 py-3 rounded-xl items-center bg-white'>
-              <Text className='text-gray-700 font-semibold'>Edit Profile</Text>
-            </TouchableOpacity>
+          {/* Edit Profile */}
+          <TouchableOpacity className='flex-row items-center py-5 border-b border-gray-200'>
+            <Feather name='edit' size={22} color='gray' />
+            <View className='ml-4 flex-1'>
+              <Text className='text-lg font-semibold text-gray-800'>
+                Edit Profile
+              </Text>
+              <Text className='text-gray-500 text-sm'>
+                Change profile details
+              </Text>
+            </View>
+          </TouchableOpacity>
 
-            <TouchableOpacity className='flex-1 border border-gray-300 py-3 rounded-xl items-center bg-white'>
-              <Text className='text-gray-700 font-semibold'>Message</Text>
-            </TouchableOpacity>
-          </View>
+          {/* Applied Jobs */}
+          <TouchableOpacity className='flex-row items-center py-5 border-b border-gray-200'>
+            <Feather name='briefcase' size={22} color='gray' />
+            <View className='ml-4 flex-1'>
+              <Text className='text-lg font-semibold text-gray-800'>
+                Applied Jobs
+              </Text>
+              <Text className='text-gray-500 text-sm'>
+                See jobs you applied for
+              </Text>
+            </View>
+          </TouchableOpacity>
+
+          {/* Settings */}
+          <TouchableOpacity className='flex-row items-center py-5 border-b border-gray-200'>
+            <Feather name='settings' size={22} color='gray' />
+            <View className='ml-4 flex-1'>
+              <Text className='text-lg font-semibold text-gray-800'>
+                Settings
+              </Text>
+              <Text className='text-gray-500 text-sm'>
+                Manage app preferences
+              </Text>
+            </View>
+          </TouchableOpacity>
         </View>
       </ScrollView>
     </View>

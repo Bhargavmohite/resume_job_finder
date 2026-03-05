@@ -1,21 +1,22 @@
 import React, { useMemo, useState } from "react";
 import { FlatList, Text, TextInput, View } from "react-native";
-import data from "../Data/random_recruiters.json";
+import data from "../Data/Candidates_card.json";
 import { Ionicons } from "@expo/vector-icons";
-import Recuiters_card from '../Card_design/recruiters_card'
-const index = () => {
-    const [searchQuery, setSearchQuery] = useState("");
-    const searchFilter = useMemo(() => {
-      if (searchQuery === "") {
-        return data;
-      }
-      return data.filter((item) => {
-        return (
-          item.role.toLowerCase().includes(searchQuery.toLowerCase()) ||
-          item.name.toLowerCase().includes(searchQuery.toLowerCase())
-        );
-      });
-    }, [searchQuery]);
+import Candidates_card from "../Card_design/candidates_card";
+
+const candidate = () => {
+        const [searchQuery, setSearchQuery] = useState("");
+        const searchFilter = useMemo(() => {
+          if (searchQuery === "") {
+            return data;
+          }
+          return data.filter((item) => {
+            return (
+              item.role.toLowerCase().includes(searchQuery.toLowerCase()) ||
+              item.name.toLowerCase().includes(searchQuery.toLowerCase())
+            );
+          });
+        }, [searchQuery]);
   return (
     <View className='flex-1 items-center justify-center'>
       {/* Search Section */}
@@ -39,11 +40,11 @@ const index = () => {
         data={searchFilter}
         className='mt-4 w-full px-4'
         keyExtractor={(item) => item.id.toString()}
-        renderItem={({ item }) => <Recuiters_card item={item} />}
+        renderItem={({ item }) => <Candidates_card key={item.id} item={item} />}
         showsVerticalScrollIndicator={false}
       />
     </View>
   );
 };
 
-export default index;
+export default candidate;

@@ -1,13 +1,6 @@
 import { Entypo, Ionicons } from "@expo/vector-icons";
 import React, { useMemo, useState } from "react";
-import {
-  FlatList,
-  Image,
-  Text,
-  TextInput,
-  TouchableOpacity,
-  View,
-} from "react-native";
+import { Alert, FlatList, Image, Text, TextInput, TouchableOpacity, View } from "react-native";
 import data from "../Data/Random.json";
 
 const index = () => {
@@ -23,7 +16,7 @@ const index = () => {
         item.company.toLowerCase().includes(searchQuery.toLowerCase())
       );
     });
-  }, [searchQuery]); 
+  }, [searchQuery]);
 
   return (
     <View className='flex items-center justify-center'>
@@ -47,7 +40,7 @@ const index = () => {
         data={searchFilter}
         showsVerticalScrollIndicator={false}
         keyExtractor={(item) => item.id.toString()}
-        renderItem={({ item }) => (
+        renderItem={({ item }) => {return (
           <View className='px-4 py-5 mb-5'>
             <View className='bg-white rounded-xl p-4 border border-purple-100 shadow-sm'>
               <View className='flex-row justify-between mb-3'>
@@ -91,14 +84,18 @@ const index = () => {
                   </Text>
                 </View>
 
-                <TouchableOpacity className='bg-[#3c2f5b] px-5 py-2 rounded-lg'>
+                <TouchableOpacity
+                  onPress={() => Alert.alert("Alert", "Updates Coming Soon")}
+                  className='bg-[#3c2f5b] px-5 py-2 rounded-lg'
+                >
                   <Text className='text-white text-sm font-bold'>Apply</Text>
                 </TouchableOpacity>
               </View>
             </View>
           </View>
-        )}
+        );}}
       />
+
       <Text className='text-sm text-gray-400 mt-2 ml-1'>
         {searchFilter.length} Jobs Found
       </Text>

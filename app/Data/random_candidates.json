@@ -1,0 +1,68 @@
+[
+    {
+      "id": "1",
+      "name": "Jane Doe",
+      "role": "Senior Product Designer",
+      "exp": "5 Y EXPERIENCE",
+      "location": "London, UK",
+      "match": "98%",
+      "file": "jane_doe_resume.pdf",
+      "time": "Applied 2h ago",
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg",
+      "color": "bg-green-100",
+      "textColor": "text-green-600"
+    },
+    {
+      "id": "2",
+      "name": "John Smith",
+      "role": "Senior Product Designer",
+      "exp": "5 Y EXPERIENCE",
+      "location": "London, UK",
+      "match": "89%",
+      "file": "john_smith_resume.pdf",
+      "time": "Applied 2h ago",
+      "avatar": "https://randomuser.me/api/portraits/men/44.jpg",
+      "color": "bg-blue-100",
+      "textColor": "text-blue-600"
+    },
+    {
+      "id": "3",
+      "name": "Emily Johnson",
+      "role": "Senior Product Designer",
+      "exp": "5 Y EXPERIENCE",
+      "location": "London, UK",
+      "match": "79%",
+      "file": "emily_johnson_resume.pdf",
+      "time": "Applied 2h ago",
+      "avatar": "https://randomuser.me/api/portraits/women/45.jpg",
+      "color": "bg-pink-100",
+      "textColor": "text-pink-600"
+    },
+    {
+      "id": "4",
+      "name": "Michael Brown",
+      "role": "Senior Product Designer",
+      "exp": "5 Y EXPERIENCE",
+      "location": "London, UK",
+      "match": "67%",
+      "file": "michael_brown_resume.pdf",
+      "time": "Applied 2h ago",
+      "avatar": "https://randomuser.me/api/portraits/men/45.jpg",
+      "color": "bg-yellow-100",
+      "textColor": "text-yellow-600"
+    },
+    {
+      "id": "5",
+      "name": "Sarah Wilson",
+      "role": "Senior Product Designer",
+      "exp": "5 Y EXPERIENCE",
+      "location": "London, UK",
+      "match": "28%",
+      "file": "sarah_wilson_resume.pdf",
+      "time": "Applied 2h ago",
+      "avatar": "https://randomuser.me/api/portraits/women/46.jpg",
+      "color": "bg-indigo-100",
+      "textColor": "text-indigo-600"
+    }
+
+]
