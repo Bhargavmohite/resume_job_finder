@@ -1,8 +1,28 @@
 import { Feather } from "@expo/vector-icons";
+import { useRouter } from "expo-router";
 import React from "react";
-import { Image, ScrollView, Text, TouchableOpacity, View } from "react-native";
+import { Alert, Image, ScrollView, Text, TouchableOpacity, View } from "react-native";
 
 const profile = () => {
+  const router = useRouter();
+  const userprofile =() => {
+      // Alert.alert("Profile", "This is your profile page.");
+      router.push("/Candidate_profile/Bio");
+  }
+
+  const editProfile =() => {
+    // Alert.alert("Edit Profile", "This feature is coming soon!");
+    router.push("/Candidate_profile/Bio_Data_Edit");
+  }
+
+  const appliedJobs =() => {
+    // Alert.alert("Applied Jobs", "You haven't applied to any jobs yet.");
+    router.push("/Candidate_profile/Applied_Jobs");
+  }
+
+  const settings =() => {
+    Alert.alert("Settings", "Settings page is under construction.");
+  }
   return (
     <View className='flex-1 bg-gray-100'>
       <ScrollView showsVerticalScrollIndicator={false}>
@@ -28,8 +48,9 @@ const profile = () => {
           </View>
         </View>
         <View className='px-5 pt-5 mt-5 relative bottom-5'>
+
           {/* Bio */}
-          <TouchableOpacity className='flex-row items-center py-5 border-b border-gray-200'>
+          <TouchableOpacity onPress={userprofile} className='flex-row items-center py-5 border-b border-gray-200'>
             <Feather name='user' size={22} color='gray' />
             <View className='ml-4 flex-1'>
               <Text className='text-lg font-semibold text-gray-800'>Bio</Text>
@@ -40,7 +61,7 @@ const profile = () => {
           </TouchableOpacity>
 
           {/* Edit Profile */}
-          <TouchableOpacity className='flex-row items-center py-5 border-b border-gray-200'>
+          <TouchableOpacity onPress={editProfile} className='flex-row items-center py-5 border-b border-gray-200'>
             <Feather name='edit' size={22} color='gray' />
             <View className='ml-4 flex-1'>
               <Text className='text-lg font-semibold text-gray-800'>
@@ -53,7 +74,7 @@ const profile = () => {
           </TouchableOpacity>
 
           {/* Applied Jobs */}
-          <TouchableOpacity className='flex-row items-center py-5 border-b border-gray-200'>
+          <TouchableOpacity  onPress={appliedJobs} className='flex-row items-center py-5 border-b border-gray-200'>
             <Feather name='briefcase' size={22} color='gray' />
             <View className='ml-4 flex-1'>
               <Text className='text-lg font-semibold text-gray-800'>
@@ -66,7 +87,7 @@ const profile = () => {
           </TouchableOpacity>
 
           {/* Settings */}
-          <TouchableOpacity className='flex-row items-center py-5 border-b border-gray-200'>
+          <TouchableOpacity onPress={settings} className='flex-row items-center py-5 border-b border-gray-200'>
             <Feather name='settings' size={22} color='gray' />
             <View className='ml-4 flex-1'>
               <Text className='text-lg font-semibold text-gray-800'>

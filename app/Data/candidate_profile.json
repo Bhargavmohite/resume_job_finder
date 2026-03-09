@@ -1,0 +1,69 @@
+[
+    {
+        "id": 1,
+        "personalInformation": {
+            "name": "Alex Johnson",
+            "phone": "+91 9876543210",
+            "email": "alexjohn@example.com",
+            "location": "Ahmedabad, India"
+        },
+        "careerObjective": "Passionate developer seeking opportunities to build scalable applications and improve my technical and problem-solving skills.",
+        "education": {
+            "degree": "B.Sc. Computer Science",
+            "college": "XYZ University",
+            "year": "2025",
+            "cgpa": "8.5"
+        },
+        "technicalSkills": {
+            "programmingLanguages": ["JavaScript", "Python"],
+            "toolsTechnologies": ["React", "Node.js", "Express.js", "MongoDB"]
+        },
+        "projects": [
+            {
+            "title": "Job Finder App",
+            "technologies": ["React Native", "Node.js", "MongoDB"],
+            "description": "Built a mobile application that helps users find and apply for jobs."
+            }
+        ],
+        "workExperience": [
+            {
+            "company": "ABC Tech",
+            "role": "Frontend Intern",
+            "duration": "3 Months",
+            "responsibilities": [
+                "Developed UI components",
+                "Worked with React and APIs"
+            ]
+            }
+        ],
+        "certifications": [
+            "Python Programming Certificate",
+            "Web Development Course"
+        ],
+        "achievements": [
+            "Hackathon Finalist 2024"
+        ],
+        "languages": [
+            "English",
+            "Hindi",
+            "Gujarati",
+            "Marathi"
+        ],
+        "hobbies": [
+            "Coding",
+            "Reading",
+            "Sports"
+        ],
+        "strengths": [
+            "Problem Solving",
+            "Teamwork",
+            "Communication"
+        ],
+        "links": {
+            "portfolio": "https://portfolio.com",
+            "github": "https://github.com/username",
+            "linkedin": "https://linkedin.com/in/username"
+        }
+}
+    
+]
