@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from "react";
 import { FlatList, Text, TextInput, View } from "react-native";
-import data from "../Data/Candidates_card.json";
+import data from "../Data/admin/Candidates_card.json";
 import { Ionicons } from "@expo/vector-icons";
 import Candidates_card from "../Card_design/candidates_card";
 

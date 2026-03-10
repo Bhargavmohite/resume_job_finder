@@ -1,5 +1,6 @@
+import { useRouter } from "expo-router";
 import React from "react";
-import { Alert, Image, Text, TouchableOpacity, View } from "react-native";
+import { Image, Text, TouchableOpacity, View } from "react-native";
 
 const recruiter_candidate_card = ({ item }) => {
   const matchValue = parseInt(item.match); // Assuming match is a number between 0 and 100
@@ -16,6 +17,15 @@ const recruiter_candidate_card = ({ item }) => {
     badgeBg = "bg-gray-100";
     textColor = "text-gray-500";
   }
+
+  const router = useRouter();
+
+  const viewProfile = (candidates: any) => {
+    router.push({
+      pathname: "/recruiter_candidate/recruiter_candidates",
+      params: { id: candidates.id },
+    });
+  };
 
   return (
     <View className='bg-white relative  p-5 rounded-xl mb-4 mt-4 shadow-sm border border-gray-100'>
@@ -58,7 +68,7 @@ const recruiter_candidate_card = ({ item }) => {
         <Text className='text-gray-400 text-xs'>{item.time}</Text>
 
         <TouchableOpacity
-          onPress={() => Alert.alert("Alert", "Updates Coming Soon")}
+          onPress={() => viewProfile(item)}
           className='bg-purple-700 px-4 py-2 rounded-lg'
         >
           <Text className='text-white font-semibold text-sm'>View Profile</Text>

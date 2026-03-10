@@ -2,7 +2,7 @@ import { Ionicons } from "@expo/vector-icons";
 import React, { useState } from "react";
 import { FlatList, TextInput, View } from "react-native";
 import CandidateCard from "../Card_design/Recruiter_candidate_card";
-import Data from "../Data/random_candidates.json";
+import Data from "../Data/recruiter/random_candidates.json";
 
 const Recruiter_candidate = () => {
   const [search, setSearch] = useState("");

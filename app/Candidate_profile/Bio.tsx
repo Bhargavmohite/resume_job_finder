@@ -1,6 +1,6 @@
 import React from "react";
 import { FlatList, Image, ScrollView, Text, View } from "react-native";
-import Data from "../Data/candidate_profile.json";
+import Data from "../Data/candidate/candidate_profile.json";
 import Bio_Data from "./Bio_Data";
 
 const Bio = () => {

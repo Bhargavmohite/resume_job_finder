@@ -1,7 +1,7 @@
 import { Entypo, Ionicons } from "@expo/vector-icons";
+import { useNavigation, useRouter } from "expo-router";
 import React, { useMemo, useState } from "react";
 import {
-  Alert,
   FlatList,
   Image,
   Text,
@@ -9,7 +9,7 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
-import data from "../Data/Random.json";
+import data from "../Data/candidate/Random.json";
 
 const index = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -25,6 +25,16 @@ const index = () => {
       );
     });
   }, [searchQuery]);
+
+  const router = useRouter();
+  const navigation = useNavigation();
+
+  const applyjobs = (job: any) => {
+    router.push({
+      pathname: "/candidate_home/applyJob",
+      params: { id: job.id },
+    });
+  };
 
   return (
     <View className='flex items-center justify-center'>
@@ -94,7 +104,7 @@ const index = () => {
                   </View>
 
                   <TouchableOpacity
-                    onPress={() => Alert.alert("Alert", "Updates Coming Soon")}
+                    onPress={() => applyjobs(item)}
                     className='bg-[#3c2f5b] px-5 py-2 rounded-lg'
                   >
                     <Text className='text-white text-sm font-bold'>Apply</Text>

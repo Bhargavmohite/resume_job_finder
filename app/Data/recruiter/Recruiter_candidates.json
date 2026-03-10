@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "Jane Doe",
+    "title": "Senior Product Designer",
+    "experience": "2 years",
+    "emailid": "jane.doe@email.com",
+    "phoneno": "+44 7700900111",
+    "location": "London, UK",
+    "filename": "jane_doe_resume.pdf",
+    "image": "https://randomuser.me/api/portraits/women/44.jpg"
+  },
+  {
+    "id": 2,
+    "name": "John Smith",
+    "title": "Senior Product Designer",
+    "experience": "3 years",
+    "emailid": "john.smith@email.com",
+    "phoneno": "+44 7700900222",
+    "location": "London, UK",
+    "filename": "john_smith_resume.pdf",
+    "image": "https://randomuser.me/api/portraits/men/44.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Emily Johnson",
+    "title": "Senior Product Designer",
+    "experience": "5 years",
+    "emailid": "emily.johnson@email.com",
+    "phoneno": "+44 7700900333",
+    "location": "London, UK",
+    "filename": "emily_johnson_resume.pdf",
+    "image": "https://randomuser.me/api/portraits/women/45.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Michael Brown",
+    "title": "Senior Product Designer",
+    "experience": "5 years",
+    "emailid": "michael.brown@email.com",
+    "phoneno": "+44 7700900444",
+    "location": "London, UK",
+    "filename": "michael_brown_resume.pdf",
+    "image": "https://randomuser.me/api/portraits/men/45.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Sarah Wilson",
+    "title": "Senior Product Designer",
+    "experience": "5 years",
+    "emailid": "sarah.wilson@email.com",
+    "phoneno": "+44 7700900555",
+    "location": "London, UK",
+    "filename": "sarah_wilson_resume.pdf",
+    "image": "https://randomuser.me/api/portraits/women/46.jpg"
+  }
+]

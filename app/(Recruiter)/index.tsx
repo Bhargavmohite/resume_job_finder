@@ -6,7 +6,7 @@ import {
   View
 } from "react-native";
 import Recruiter_Home from "../Card_design/recuriter/Recruiter_Home";
-import data from "../Data/Random.json";
+import data from "../Data/candidate/Random.json";
 
 const index = () => {
   const [searchQuery, setSearchQuery] = useState("");

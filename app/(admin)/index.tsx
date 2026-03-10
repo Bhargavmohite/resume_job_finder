@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from "react";
 import { FlatList, Text, TextInput, View } from "react-native";
-import data from "../Data/random_recruiters.json";
+import data from "../Data/admin/random_recruiters.json";
 import { Ionicons } from "@expo/vector-icons";
 import Recuiters_card from '../Card_design/recruiters_card'
 const index = () => {
